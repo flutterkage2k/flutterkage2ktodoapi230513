@@ -21,9 +21,9 @@ void showSuccessMessage(
   final snackBar = SnackBar(
     content: Text(
       message,
-      style: const TextStyle(color: Colors.white),
+      style: const TextStyle(color: Colors.black),
     ),
-    backgroundColor: Colors.red,
+    backgroundColor: Colors.white,
   );
   ScaffoldMessenger.of(context).showSnackBar(snackBar);
 }
